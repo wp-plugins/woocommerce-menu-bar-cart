@@ -1,7 +1,7 @@
 === Woocommerce Nav Shopping Cart ===
 Contributors: jprummer 
 Donate link: http://www.wpovernight.com/donate
-Tags: woocommerce, menu, bar, cart, basket, header
+Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
 Requires at least: 3.4
 Tested up to: 3.5
 Stable tag: 1.0.1
