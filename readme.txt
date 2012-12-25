@@ -1,6 +1,6 @@
 === Woocommerce Nav Shopping Cart ===
 Contributors: jprummer 
-Donate link: http://www.wpovernight.com/donate
+Donate link: https://www.wpovernight.com/donate
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
 Requires at least: 3.4
 Tested up to: 3.5
@@ -20,7 +20,7 @@ If one or both of these conditions are not met, the cart button will not display
 
 Finally, the cart automatically conforms to your site's styles, leaving you with no extra work.
 
-**Note:** A version that includes a shopping cart image (via FontAwesome) is available free at http://www.wpovernight.com/plugins
+**Note:** A version that includes a shopping cart image (via FontAwesome) is available free at https://www.wpovernight.com/plugins
 
 == Installation ==
 
