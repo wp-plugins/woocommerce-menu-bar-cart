@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: Menu Bar Shopping Cart
+Plugin Name: WooCommerce Menu Cart
 Plugin URI: www.wpovernight.com/plugins
-Description: Woocommerce plugin that places a cart tab with number of items and total cost in the menu bar. Activate the plugin, and you're ready to go! Will automatically conform to your theme styles. Be sure that a menu is set to 'cart', otherwise the plugin will not work.
-Version: 1.0.1
+Description: Woocommerce plugin that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your menu's primary name to 'cart' and you're ready to go! Will automatically conform to your theme styles. Be sure that a menu is set to 'cart', otherwise the plugin will not work.
+Version: 1.0.2
 Author: Jeremiah Prummer
 Author URI: www.wpovernight.com/about
 License: GPL2
@@ -22,11 +22,13 @@ License: GPL2
 ?>
 <?php
 
-add_filter('wp_nav_menu_cart_items','add_search_box_to_menu' , 10, 2);
+$wccart_menu_name = 'cart';
+
+add_filter('wp_nav_menu_' . $wccart_menu_name . '_items','add_search_box_to_menu' , 10, 2);
 
 function add_search_box_to_menu( $items ) {
 global $woocommerce;
-$viewing_cart = 'View Your Shopping Cart';
+$viewing_cart = __('View your shopping cart', 'woothemes');
 $cart_url = $woocommerce->cart->get_cart_url();
 $cart_contents = sprintf(_n('%d item', '%d items', $woocommerce->cart->cart_contents_count, 'woothemes'), $woocommerce->cart->cart_contents_count);
 $cart_total = $woocommerce->cart->get_cart_total();
