@@ -41,6 +41,20 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert t
 
 Make sure you've set the appropriate menu name. Also, if no items are in the cart and you haven't checked the 'display always' box, nothing will appear.
 
+== Changelog ==
+
+= 1.1 = 
+
+Updated to include options page with the following options: 
+
+* Set own custom menu.
+* Display cart icon, or only items/prices.
+* Display items only, price only, or both.
+* Display always, or only when there are items in the cart.
+
+= 1.0.2 =
+Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
+
 == Upgrade Notice ==
 
 = 1.1 = 
