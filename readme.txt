@@ -59,6 +59,10 @@ Includes translation elements & some changes to make installation more understan
 
 == Upgrade Notice ==
 
+= 1.1.1 =
+
+Removed Case Sensitivity menu name
+
 = 1.1 = 
 
 Updated to include options page with the following options: 
