@@ -19,7 +19,7 @@ and includes the following options:
 
 Finally, the cart automatically conforms to your site's styles, leaving you with no extra work.
 
-**For immediate support, visit https://www.wpovernight.com/contact**
+**For fastest support, visit https://www.wpovernight.com/contact**
 
 == Installation ==
 
