@@ -25,7 +25,7 @@ Finally, the cart automatically conforms to your site's styles, leaving you with
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. (Can also be done via the WordPress.org plugin directory)
 
-Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert the name of the menu that will display the cart, and select your options. It's that easy!
+Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert the name of the menu (all lowercase) that will display the cart, and select your options. It's that easy!
 
 == Screenshots ==
 
@@ -41,7 +41,7 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert t
 
 = Why is nothing happening? =
 
-Make sure you've set the appropriate menu name. Also, if no items are in the cart and you haven't checked the 'display always' box, nothing will appear.
+Make sure you've set the appropriate menu name (Use all lowercase to ensure it works). Also, if no items are in the cart and you haven't checked the 'display always' box, nothing will appear.
 
 == Changelog ==
 
