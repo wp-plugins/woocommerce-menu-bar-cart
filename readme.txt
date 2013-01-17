@@ -21,6 +21,8 @@ Finally, the cart automatically conforms to your site's styles, leaving you with
 
 **For fastest support, visit https://www.wpovernight.com/contact**
 
+**To show some love, visit https://www.wpovernight.com/donate**
+
 == Installation ==
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. (Can also be done via the WordPress.org plugin directory)
