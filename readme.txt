@@ -4,7 +4,7 @@ Donate link: https://www.wpovernight.com/donate
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 1.1.1
+Stable tag: 1.1.2
 
 Automatically displays a shopping cart in your menu bar.
 
@@ -60,6 +60,10 @@ Updated to include options page with the following options:
 Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
 
 == Upgrade Notice ==
+
+= 1.1.2 =
+
+Plugin Doesn't Activate if WooCommerce is not active.
 
 = 1.1.1 =
 

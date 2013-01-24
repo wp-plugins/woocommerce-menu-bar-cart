@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Menu Cart
 Plugin URI: www.wpovernight.com/plugins
 Description: Woocommerce plugin that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your menu's primary name to 'cart' and you're ready to go! Will automatically conform to your theme styles. Be sure that a menu is set to 'cart', otherwise the plugin will not work.
-Version: 1.1.1
+Version: 1.1.2
 Author: Jeremiah Prummer
 Author URI: www.wpovernight.com/about
 License: GPL2
@@ -21,6 +21,7 @@ License: GPL2
 */
 ?>
 <?php
+if ( in_array( 'woocommerce/woocommerce.php', apply_filters( 'active_plugins', get_option( 'active_plugins' ) ) ) ) {
 add_action('admin_init', 'wc_menucart_init' );
 add_action('admin_menu', 'wc_menucart_add_page');
 
@@ -43,6 +44,9 @@ function wc_menucart_options_do_page() {
 
 ?>
 	<div class="wrap">
+	<div style="-moz-border-radius: 2px;border-radius: 2px;width: 87%; height: auto;text-align:center;font-size:18px;padding: 7px;-moz-box-shadow: 0 0 5px #FF0000;-webkit-box-shadow: 0 0 5px #FF0000;box-shadow: 0 0 5px #FF0000;background: #FCEBEB;margin:5%;margin-bottom: 0%">
+	<strong style="color: green"><?php _e('New:','woothemes') ?></strong> <?php _e('Turn your 404 traffic into sales with the','woothemes') ?> <a href="http://wordpress.org/extend/plugins/404-silent-salesman/" target="_blank"><?php _e('404 Silent Salesmen','woothemes') ?></a> <?php _e('plugin - free on WordPress.org.','woothemes') ?>
+	</div>
 	<div style="background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;margin:5%;padding: 10px;-moz-box-shadow: 0 0 5px #888;-webkit-box-shadow: 0 0 5px#888;box-shadow: 0 0 5px #888;width: 40%;float: left"> 
 	<h1 style='margin-bottom: 30px;text-align: center'><?php _e('Menu Cart Setup','woothemes') ?></h1>
 	<h3><?php _e("Let's keep this simple! Just check the boxes next to the features you want.","woothemes") ?></h3>
@@ -185,5 +189,6 @@ title="'. $viewing_cart .'"><i class="icon-shopping-cart"></i> '. $cart_contents
 
     	return $items;
 	}
+}
 }
 ?>
