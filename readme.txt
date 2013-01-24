@@ -47,6 +47,14 @@ Make sure you've set the appropriate menu name (Use all lowercase to ensure it w
 
 == Changelog ==
 
+= 1.1.2 =
+
+Plugin Doesn't Activate if WooCommerce is not active.
+
+= 1.1.1 =
+
+Removed Case Sensitivity menu name
+
 = 1.1 = 
 
 Updated to include options page with the following options: 
