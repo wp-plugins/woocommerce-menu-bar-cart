@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Menu Cart
 Plugin URI: www.wpovernight.com/plugins
 Description: Woocommerce plugin that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your options and you're ready to go! Will automatically conform to your theme styles.
-Version: 1.5
+Version: 2.0
 Author: Jeremiah Prummer, Ewout Fernhout
 Author URI: www.wpovernight.com/about
 License: GPL2
