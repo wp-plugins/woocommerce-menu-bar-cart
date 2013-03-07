@@ -55,7 +55,7 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select y
 
 == Changelog ==
 
-= 1.5 =
+= 2.0 =
 
 * Choose menu from dropdown instead of entering it yourself.
 * Cart is ajaxified.
@@ -86,7 +86,7 @@ Includes translation elements & some changes to make installation more understan
 
 == Upgrade Notice ==
 
-= 1.5 =
+= 2.0 =
 
 * Choose menu from dropdown instead of entering it yourself.
 * Cart is ajaxified.
