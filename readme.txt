@@ -1,10 +1,10 @@
 === Woocommerce Menu Cart ===
-Contributors: jprummer 
+Contributors: jprummer, pomegranate
 Donate link: https://www.wpovernight.com/donate
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
 Requires at least: 3.4
-Tested up to: 3.5
-Stable tag: 1.1.2
+Tested up to: 3.5.1
+Stable tag: 1.5
 
 Automatically displays a shopping cart in your menu bar.
 
@@ -16,10 +16,22 @@ and includes the following options:
 * Display cart icon, or only items/prices.
 * Display items only, price only, or both.
 * Display always, or only when there are items in the cart.
+* Float left, float right, or use your menu's default settings.
+* Customize your own CSS
+* Translation for Danish and Dutch
+
+Latest Update:
+
+* Choose menu from dropdown instead of entering it yourself.
+* Cart is ajaxified.
+* Float left, float right, or use your menu's default settings.
+* Custom CSS page for easier editing of the plugin.
+* Translation for Danish and Dutch
+* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
 
 Finally, the cart automatically conforms to your site's styles, leaving you with no extra work.
 
-**For fastest support, visit https://www.wpovernight.com/contact**
+**For the pro version, with advanced features visit https://wpovernight.com/shop/woocommerce-menu-cart-pro/**
 
 **To show some love, visit https://www.wpovernight.com/donate**
 
@@ -27,7 +39,7 @@ Finally, the cart automatically conforms to your site's styles, leaving you with
 
 Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. (Can also be done via the WordPress.org plugin directory)
 
-Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert the name of the menu (all lowercase) that will display the cart, and select your options. It's that easy!
+Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select your options, save and you're ready to go. It's that easy!
 
 == Screenshots ==
 
@@ -41,11 +53,16 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Insert t
 
 == Frequently Asked Questions ==
 
-= Why is nothing happening? =
-
-Make sure you've set the appropriate menu name (Use all lowercase to ensure it works). Also, if no items are in the cart and you haven't checked the 'display always' box, nothing will appear.
-
 == Changelog ==
+
+= 1.5 =
+
+* Choose menu from dropdown instead of entering it yourself.
+* Cart is ajaxified.
+* Float left, float right, or use your menu's default settings.
+* Custom CSS page for easier editing of the plugin.
+* Translation for Danish and Dutch
+* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
 
 = 1.1.2 =
 
@@ -68,6 +85,15 @@ Updated to include options page with the following options:
 Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
 
 == Upgrade Notice ==
+
+= 1.5 =
+
+* Choose menu from dropdown instead of entering it yourself.
+* Cart is ajaxified.
+* Float left, float right, or use your menu's default settings.
+* Custom CSS page for easier editing of the plugin.
+* Translation for Danish and Dutch
+* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
 
 = 1.1.2 =
 
