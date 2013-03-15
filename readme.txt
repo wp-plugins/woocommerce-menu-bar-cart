@@ -4,7 +4,7 @@ Donate link: https://www.wpovernight.com/donate
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 2.0
+Stable tag: 2.0.1
 
 Automatically displays a shopping cart in your menu bar.
 
@@ -23,7 +23,7 @@ and includes the following options:
 Latest Update:
 
 * Choose menu from dropdown instead of entering it yourself.
-* Cart is ajaxified.
+* Cart now updates real-time, no more page refresh needed.
 * Float left, float right, or use your menu's default settings.
 * Custom CSS page for easier editing of the plugin.
 * Translation for Danish and Dutch
@@ -55,6 +55,10 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select y
 
 == Changelog ==
 
+= 2.0.1 =
+
+* fixed CSS align issue
+
 = 2.0 =
 
 * Choose menu from dropdown instead of entering it yourself.
@@ -82,9 +86,14 @@ Updated to include options page with the following options:
 * Display always, or only when there are items in the cart.
 
 = 1.0.2 =
+
 Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
 
 == Upgrade Notice ==
+
+= 2.0.1 =
+
+* fixed CSS align issue
 
 = 2.0 =
 
