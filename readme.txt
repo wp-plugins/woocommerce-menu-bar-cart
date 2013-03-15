@@ -58,6 +58,7 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select y
 = 2.0.1 =
 
 * fixed CSS align issue
+* Discount for Pro Version
 
 = 2.0 =
 
@@ -94,6 +95,7 @@ Includes translation elements & some changes to make installation more understan
 = 2.0.1 =
 
 * fixed CSS align issue
+* Discount for Pro Version
 
 = 2.0 =
 

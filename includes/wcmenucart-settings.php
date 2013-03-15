@@ -288,8 +288,11 @@ class WcMenuCart_Settings {
 				jQuery('.pro-icon').show('slow');
 			});
 			</script>
-			<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; font-size: 13.8px;border-color: "> 
-<h2><?php _e('Get WooCommerce Menu Cart Pro!','wcmenucart') ?></h2>			
+			<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; font-size: 13.8px;width: 60%;float: left"> 
+<h2><?php _e('Get WooCommerce Menu Cart Pro!','wcmenucart') ?></h2>
+<br>
+<strong><?php _e('Limited Offer:','wcmenucart') ?> <span style="color: red"><?php _e('40% off!','wcmenucart') ?></span></strong>			
+<br>
 <br>
 <?php _e('Includes all the great standard features found in this free version plus:','wcmenucart') ?>
 <br>
@@ -303,8 +306,16 @@ class WcMenuCart_Settings {
 <?php
 $menucartadmore = '<a href="https://wpovernight.com/shop/woocommerce-menu-cart-pro/?utm_source=wordpress&utm_medium=menucartfree&utm_campaign=menucartadmore">';
 printf (__('Need to see more? %sClick here%s to check it out. Add a product to your cart and watch what happens!','wcmenucart'), $menucartadmore,'</a>'); ?><br><br>
-<a class="button button-primary" style="text-align: center" href="https://wpovernight.com/shop/woocommerce-menu-cart-pro/?utm_source=wordpress&utm_medium=menucartfree&utm_campaign=menucartadbuy"><?php _e('Buy Now','wcmenucart') ?></a>
+<a class="button button-primary" style="text-align: center;margin: 0px auto" href="https://wpovernight.com/shop/woocommerce-menu-cart-pro/?utm_source=wordpress&utm_medium=menucartfree&utm_campaign=menucartadbuy"><?php _e('Buy Now','wcmenucart') ?></a>
 			</div>
+<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; margin-left: 30px; font-size: 13.8px;width: 30%;float: left">
+<h2><?php _e('Want your CSS customized?','wcmenucart') ?></h2>
+<br>
+<?php _e('We can do that for you! Just click the button below to check it out.','wcmenucart') ?>
+<br><br>
+<a class="button button-primary" style="text-align: center" href="https://wpovernight.com/shop/woocommerce-menu-cart-custom-css/?utm_source=wordpress&utm_medium=menucartfree&utm_campaign=menucartcustomcss"><?php _e('Customize my CSS!','wcmenucart') ?></a>
+
+</div>
         </div>
 		<?php
 	}
