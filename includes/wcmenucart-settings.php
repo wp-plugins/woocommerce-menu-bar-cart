@@ -291,7 +291,7 @@ class WcMenuCart_Settings {
 			<div style="line-height: 20px; background: #F3F3F3;-moz-border-radius: 3px;border-radius: 3px;padding: 10px;-moz-box-shadow: 0 0 5px #ff0000;-webkit-box-shadow: 0 0 5px#ff0000;box-shadow: 0 0 5px #ff0000;padding: 10px;margin:0px auto; font-size: 13.8px;width: 60%;float: left"> 
 <h2><?php _e('Get WooCommerce Menu Cart Pro!','wcmenucart') ?></h2>
 <br>
-<strong><?php _e('Limited Offer:','wcmenucart') ?> <span style="color: red"><?php _e('40% off!','wcmenucart') ?></span></strong>			
+<strong><?php _e('Limited Offer:','wcmenucart') ?> <span style="color: red"><?php _e('20% off!','wcmenucart') ?></span></strong>			
 <br>
 <br>
 <?php _e('Includes all the great standard features found in this free version plus:','wcmenucart') ?>

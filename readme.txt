@@ -10,6 +10,8 @@ Automatically displays a shopping cart in your menu bar.
 
 == Description ==
 
+**For other Ecommerce platforms visit http://wordpress.org/extend/plugins/wp-menu-cart/**
+
 This plugin installs a shopping cart button in the navigation bar. The plugin takes less than a minute to setup, 
 and includes the following options:
 
