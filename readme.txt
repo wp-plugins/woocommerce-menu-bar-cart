@@ -45,13 +45,9 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select y
 
 == Screenshots ==
 
-1. Shows menu without the WooCommerce Menu Cart.
-2. Shows activated plugin when an item is added to the cart.
-3. Shows setup page.
-4. Cart with price only.
-5. Cart with items only.
-6. Your WordPress menu name.
-7. Menu Cart menu name.
+1. Shows menu before and after Menu Cart.
+2. 3 different display style options to choose from.
+3. Shows settings page.
 
 == Frequently Asked Questions ==
 
