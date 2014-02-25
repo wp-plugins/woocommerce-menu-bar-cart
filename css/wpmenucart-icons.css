@@ -8,7 +8,7 @@
     font-style:normal;
 }
 
-.wcmenucart-icon-shopping-cart-0:before {
+.wpmenucart-icon-shopping-cart-0:before {
 	font-family: 'FontAwesome';
 	speak: none;
 	font-style: normal;
@@ -27,4 +27,4 @@
     margin-right: 0.25em;
 }
 
-.wcmenucart-icon-shopping-cart-0:before{content:"\f07a"}
+.wpmenucart-icon-shopping-cart-0:before{content:"\f07a"}

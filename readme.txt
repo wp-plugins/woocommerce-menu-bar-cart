@@ -1,10 +1,10 @@
-=== Woocommerce Menu Cart ===
+=== WooCommerce Menu Cart ===
 Contributors: jprummer, pomegranate
-Donate link: https://www.wpovernight.com/donate
-Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation
+Donate link: https://www.wpovernight.com/
+Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec
 Requires at least: 3.4
-Tested up to: 3.5.1
-Stable tag: 2.0.1
+Tested up to: 3.8.1
+Stable tag: 2.5.2
 
 Automatically displays a shopping cart in your menu bar.
 
@@ -12,36 +12,50 @@ Automatically displays a shopping cart in your menu bar.
 
 **For other Ecommerce platforms visit http://wordpress.org/extend/plugins/wp-menu-cart/**
 
-This plugin installs a shopping cart button in the navigation bar. The plugin takes less than a minute to setup, 
-and includes the following options:
+This plugin installs a shopping cart button in the navigation bar. The plugin takes less than a minute to setup, and includes the following options:
 
 * Display cart icon, or only items/prices.
 * Display items only, price only, or both.
 * Display always, or only when there are items in the cart.
 * Float left, float right, or use your menu's default settings.
 * Customize your own CSS
-* Translation for Danish and Dutch
 
-Latest Update:
+Pro Version Includes:
 
-* Choose menu from dropdown instead of entering it yourself.
-* Cart now updates real-time, no more page refresh needed.
-* Float left, float right, or use your menu's default settings.
-* Custom CSS page for easier editing of the plugin.
-* Translation for Danish and Dutch
-* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
+* A choice of over 10 cart icons
+* A fully featured cart details flyout
+* Ability to add cart + flyout for unlimited menus
+* Ability to add a custom css class
+* Automatic updates on any great new features
+* Shortcode to display cart *anywhere* on your site
+* Quick and thorough support
+
+**Download the Pro version here - https://wpovernight.com/downloads/menu-cart-pro/**
 
 Finally, the cart automatically conforms to your site's styles, leaving you with no extra work.
 
-**For the pro version, with advanced features visit https://wpovernight.com/shop/woocommerce-menu-cart-pro/**
+Translations:
 
-**To show some love, visit https://www.wpovernight.com/donate**
+* Brazilian Portuguese
+* Danish
+* Dutch
+* English
+* French
+* German
+* Italian
+* Polish
+* Portuguese
+* Russian
+* Spanish[1]
+* Swedish
+* Persian
 
+[1] WebHostingHub
 == Installation ==
 
-Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page. (Can also be done via the WordPress.org plugin directory)
+Delete any old installations of the plugin. Extract the zip file and just drop the contents in the wp-content/plugins/ directory of your WordPress installation and then activate the Plugin from Plugins page.
 
-Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select your options, save and you're ready to go. It's that easy!
+Once the plugin is activated navigate to Settings > Menu Cart Setup. Select your options, save and you're ready to go. It's that easy!
 
 == Screenshots ==
 
@@ -53,73 +67,112 @@ Once the plugin is activated navigate to WooCommerce > Menu Cart Setup. Select y
 
 == Changelog ==
 
-= 2.0.1 =
+= 2.5.2 =
 
-* fixed CSS align issue
-* Discount for Pro Version
+This is a major update, make sure to test before updating on a live website, especially if you have made modifications/filters! If you notice any issues with your cart, please go to the settings page and re-save your settings. Note that your settings page will now be found under the 'Settings' tab.
 
-= 2.0 =
+= 2.5.1 =
 
-* Choose menu from dropdown instead of entering it yourself.
-* Cart is ajaxified.
-* Float left, float right, or use your menu's default settings.
-* Custom CSS page for easier editing of the plugin.
-* Translation for Danish and Dutch
-* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
+* WPML String Translation fix
 
-= 1.1.2 =
+= 2.5 =
 
-Plugin Doesn't Activate if WooCommerce is not active.
+* Mayor Code refactor: CLEANER, FASTER, MORE FLEXIBLE!
+* Added: Shop detection for Multisite
+* Added: WPML String Translation setting
+* Added: Persian translations
+* Updated: Font Awesome
+* Updated: Spanish, Portugese, Brazilian, French & Polish Translations
+* Fix: PHP strict warnings
+* Fix: CSS for Twenty Twelve & Twenty Fourteen
 
-= 1.1.1 =
+= 2.2.2 =
 
-Removed Case Sensitivity menu name
+* Jigoshop Bug Fix
 
-= 1.1 = 
+= 2.2.1 =
 
-Updated to include options page with the following options: 
+* WPML bug fixes
 
-* Set own custom menu.
-* Display cart icon, or only items/prices.
-* Display items only, price only, or both.
-* Display always, or only when there are items in the cart.
+= 2.2.0 =
 
-= 1.0.2 =
+* Several bugfixes & improvements
+* Better AJAX integration with EDD & eShop
+* Various filters added for better theme integration & easier customization
+* DOMHtml warnings surpressed
 
-Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
+= 2.1.5 =
+
+Fix: Edd and WP e-Commerce ajax.
+
+= 2.1.4 =
+
+Fixed WP e-Commerce ajax conflict and uploaded proper French translation.
+
+= 2.1.3 =
+
+EDD total price bug fixed
+
+= 2.1.2 =
+
+Added WP-Ecommerce and EDD
+
+= 2.1.0 =
+
+Initial Release
 
 == Upgrade Notice ==
 
-= 2.0.1 =
+= 2.5.2 =
 
-* fixed CSS align issue
-* Discount for Pro Version
+This is a major update, make sure to test before updating on a live website, especially if you have made modifications/filters! If you notice any issues with your cart, please go to the settings page and re-save your settings. Note that your settings page will now be found under the 'Settings' tab.
 
-= 2.0 =
+= 2.5.1 =
 
-* Choose menu from dropdown instead of entering it yourself.
-* Cart is ajaxified.
-* Float left, float right, or use your menu's default settings.
-* Custom CSS page for easier editing of the plugin.
-* Translation for Danish and Dutch
-* Everything uses a standardized naming structure, so no worrying about it interfering with your other plugins.
+* WPML String Translation fix
 
-= 1.1.2 =
+= 2.5 =
 
-Plugin Doesn't Activate if WooCommerce is not active.
+* Major Code refactor: CLEANER, FASTER, MORE FLEXIBLE!
+* Added: Shop detection for Multisite
+* Added: WPML String Translation setting
+* Added: Persian translations
+* Updated: Font Awesome
+* Updated: Spanish, Portugese, Brazilian, French & Polish Translations
+* Fix: PHP strict warnings
+* Fix: CSS for Twenty Twelve & Twenty Fourteen
 
-= 1.1.1 =
+= 2.2.2 =
 
-Removed Case Sensitivity menu name
+* Jigoshop Bug Fix
 
-= 1.1 = 
+= 2.2.1 =
 
-Updated to include options page with the following options: 
+* WPML bug fixes
 
-* Set own custom menu.
-* Display cart icon, or only items/prices.
-* Display items only, price only, or both.
-* Display always, or only when there are items in the cart.
+= 2.2.0 =
 
-= 1.0.2 =
-Includes translation elements & some changes to make installation more understandable. Set framework to allow users to keep their menu name.
+* Several bugfixes & improvements
+* Better AJAX integration with EDD & eShop
+* Various filters added for better theme integration & easier customization
+* DOMHtml warnings surpressed
+
+= 2.1.5 =
+
+Fix: Edd and WP e-Commerce ajax.
+
+= 2.1.4 =
+
+Fixed WP e-Commerce ajax conflict and uploaded proper French translation.
+
+= 2.1.3 =
+
+EDD total price bug fixed
+
+= 2.1.2 =
+
+Added WP-Ecommerce and EDD
+
+= 2.1.0 =
+
+Initial Release
