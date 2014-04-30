@@ -3,7 +3,7 @@ Contributors: jprummer, pomegranate
 Donate link: https://www.wpovernight.com/
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec
 Requires at least: 3.4
-Tested up to: 3.8.1
+Tested up to: 3.9
 Stable tag: 2.5.2
 
 Automatically displays a shopping cart in your menu bar.
