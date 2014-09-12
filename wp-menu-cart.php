@@ -1,9 +1,9 @@
 <?php
 /*
-Plugin Name: WooCommerce Menu Cart
+Plugin Name: WP Menu Cart
 Plugin URI: www.wpovernight.com/plugins
-Description: Extension for WooCommerce that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your options and you're ready to go! Will automatically conform to your theme styles.
-Version: 2.5.2
+Description: Extension for your e-commerce plugin (WooCommerce, WP-Ecommerce, Easy Digital Downloads, Eshop or Jigoshop) that places a cart icon with number of items and total cost in the menu bar. Activate the plugin, set your options and you're ready to go! Will automatically conform to your theme styles.
+Version: 2.5.3
 Author: Jeremiah Prummer, Ewout Fernhout
 Author URI: www.wpovernight.com/
 License: GPL2
@@ -292,9 +292,6 @@ class WpMenuCart {
 			$classes .= ' ' . $this->get_common_li_classes($items);
 
 		$active_plugins = apply_filters( 'active_plugins', get_option( 'active_plugins' ) );
-		if ( in_array( 'ubermenu/ubermenu.php', $active_plugins ) ) {
-			$classes .= ' mega-with-sub';
-		}
 			
 		// Filter for <li> item classes
 		/* Usage (in the themes functions.php):
@@ -313,7 +310,11 @@ class WpMenuCart {
 
 		$menu_item_li = '<li class="'.$classes.'" id="wpmenucartli">' . $wpmenucart_menu_item . '</li>';
 
-		$items .= apply_filters( 'wpmenucart_menu_item_wrapper', $menu_item_li );
+		if ( apply_filters('wpmenucart_prepend_menu_item', false) ) {
+			$items = apply_filters( 'wpmenucart_menu_item_wrapper', $menu_item_li ) . $items;
+		} else {
+			$items .= apply_filters( 'wpmenucart_menu_item_wrapper', $menu_item_li );
+		}
 
 		return $items;
 	}
@@ -377,7 +378,7 @@ class WpMenuCart {
 
 		// Check empty cart settings
 		if ($item_data['cart_contents_count'] == 0 && ( !isset($this->options['always_display']) ) ) {
-			$empty_menu_item = '<a class="wpmenucart-contents empty-wpmenucart" href="#" style="display:none">&nbsp;</a>';
+			$empty_menu_item = '<a class="wpmenucart-contents empty-wpmenucart" style="display:none">&nbsp;</a>';
 			return $empty_menu_item;
 		}
 		
@@ -401,12 +402,17 @@ class WpMenuCart {
 			$menu_item_title = apply_filters ('wpmenucart_fulltitle', $viewing_cart );
 		}
 
-		$menu_item = '<a class="wpmenucart-contents" href="'.$menu_item_href.'" title="'.$menu_item_title.'">';
+		if(defined('UBERMENU_VERSION') && (version_compare(UBERMENU_VERSION, '3.0.0') >= 0)){
+			$menu_item = '<a class="ubermenu-target wpmenucart-contents" href="'.$menu_item_href.'" title="'.$menu_item_title.'">';
+		} else {
+			$menu_item = '<a class="wpmenucart-contents" href="'.$menu_item_href.'" title="'.$menu_item_title.'">';
+		}
 		
 		$menu_item_a_content = '';	
 		if (isset($this->options['icon_display'])) {
 			$icon = isset($this->options['cart_icon']) ? $this->options['cart_icon'] : '0';
-			$menu_item_a_content .= '<i class="wpmenucart-icon-shopping-cart-'.$icon.'"></i>';
+			$menu_item_icon = '<i class="wpmenucart-icon-shopping-cart-'.$icon.'"></i>';
+			$menu_item_a_content .= $menu_item_icon;
 		}
 		
 		switch ($this->options['items_display']) {
@@ -417,10 +423,10 @@ class WpMenuCart {
 				$menu_item_a_content .= '<span class="amount">'.$item_data['cart_total'].'</span>';
 				break;
 			case 3: //items & price
-				$menu_item_a_content .= '<span class="cartcontents">'.$cart_contents.'</span> - <span class="amount">'.$item_data['cart_total'].'</span>';
+				$menu_item_a_content .= '<span class="cartcontents">'.$cart_contents.'</span><span class="amount">'.$item_data['cart_total'].'</span>';
 				break;
 		}
-		$menu_item_a_content = apply_filters ('wpmenucart_menu_item_a_content', $menu_item_a_content);
+		$menu_item_a_content = apply_filters ('wpmenucart_menu_item_a_content', $menu_item_a_content, $menu_item_icon, $cart_contents, $item_data );
 
 		$menu_item .= $menu_item_a_content . '</a>';
 		
