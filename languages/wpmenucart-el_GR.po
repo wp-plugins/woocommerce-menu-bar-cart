@@ -1,23 +1,22 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Menu Cart\n"
+"Project-Id-Version: WP Menu Cart PRO\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2013-04-27 17:22+0100\n"
-"PO-Revision-Date: 2013-11-02 10:11+0100\n"
-"Last-Translator: Ewout Fernhout <chocolade@extrapuur.nl>\n"
-"Language-Team: WP Overnight <support@wpovernight.com>\n"
-"Language: pl_PL\n"
+"PO-Revision-Date: 2014-05-30 18:56+0200\n"
+"Last-Translator: Antonis Michail\n"
+"Language-Team: \n"
+"Language: el_GR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 "X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
 "_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
 "X-Poedit-Basepath: ../\n"
 "X-Textdomain-Support: yes\n"
-"X-Generator: Poedit 1.5.5\n"
+"X-Generator: Poedit 1.6.4\n"
 "X-Poedit-SearchPath-0: .\n"
 
 #: wp-menu-cart-pro.php:180 wp-menu-cart-pro.php:257 wp-menu-cart.php:166
@@ -25,13 +24,13 @@ msgstr ""
 #: bundles/wp-menu-cart-pro/wp-menu-cart-pro.php:180
 #: bundles/wp-menu-cart-pro/wp-menu-cart-pro.php:257
 msgid "View your shopping cart"
-msgstr "Zobacz zawartość koszyka"
+msgstr "Δείτε το καλάθι σας"
 
 #: wp-menu-cart-pro.php:181 wp-menu-cart.php:167
 #: bundles/wp-menu-cart/wp-menu-cart.php:167
 #: bundles/wp-menu-cart-pro/wp-menu-cart-pro.php:181
 msgid "Start shopping"
-msgstr "Zacznij zakupy"
+msgstr "Αρχίστε τα ψώνια"
 
 #: wp-menu-cart-pro.php:182 wp-menu-cart.php:168
 #: bundles/wp-menu-cart/wp-menu-cart.php:168
@@ -39,13 +38,12 @@ msgstr "Zacznij zakupy"
 #, php-format
 msgid "%d item"
 msgid_plural "%d items"
-msgstr[0] "%d produkt"
-msgstr[1] "%d produkty"
-msgstr[2] "%d produktów"
+msgstr[0] "%d Προϊόν"
+msgstr[1] "%d Προϊόντα"
 
 #: wp-menu-cart-pro.php:264 bundles/wp-menu-cart-pro/wp-menu-cart-pro.php:264
 msgid "your cart is currently empty"
-msgstr "Twój koszyk jest pusty"
+msgstr "Το καλάθι σας είναι άδειο"
 
 #: wp-menu-cart-pro.php:301 wp-menu-cart.php:223
 #: bundles/wp-menu-cart/wp-menu-cart.php:216
@@ -58,12 +56,18 @@ msgid ""
 "An old version of WooCommerce Menu Cart is currently activated, you need to "
 "disable or uninstall it for WP Menu Cart to function properly"
 msgstr ""
+"Μια παλιά έκδοση του WooCommerce Menu Cart είναι ενεργή αυτή τη στιγμή, θα "
+"πρέπει να την απενεργοποιήσετε ή να την απεγκαταστήσετε για να λειτουργήσει "
+"σωστά το WP Menu Cart"
 
 #: wp-menu-cart-pro.php:313
 msgid ""
 "The free version of WP Menu Cart is currently activated, you need to disable "
 "or uninstall it for WP Menu Cart Pro to function properly"
 msgstr ""
+"Η δωρεάν έκδοση του WP Menu Cart είναι ενεργή αυτή τη στιγμή, θα πρέπει να "
+"την απενεργοποιήσετε ή να το απεγκαταστήσετε για να λειτουργήσει σωστά το WP "
+"Menu Cart Pro"
 
 #: bundles/wp-menu-cart/includes/wpmenucart-eshop.php:27
 #: bundles/wp-menu-cart-pro/includes/wpmenucart-eshop-pro.php:49
@@ -351,8 +355,8 @@ msgstr ""
 #~ msgid ""
 #~ "WooCommerce Menu Cart depends on <a href=\"%s\">WooCommerce</a> to work!"
 #~ msgstr ""
-#~ "WooCommerce Menu Cart heeft <a href=\"%s\">WooCommerce</a> om te kunnen "
-#~ "functioneren!"
+#~ "WooCommerce Menu Cart depends on <a href=\"%s\">WooCommerce</a> om te "
+#~ "kunnen functioneren!"
 
 #~ msgid "Display Flyout."
 #~ msgstr "Geef flyout weer."
