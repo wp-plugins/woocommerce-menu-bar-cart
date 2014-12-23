@@ -1,7 +1,7 @@
 === WooCommerce Menu Cart ===
 Contributors: jprummer, pomegranate
 Donate link: https://www.wpovernight.com/
-Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec
+Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec, test
 Requires at least: 3.4
 Tested up to: 4.1
 Stable tag: 2.5.4
