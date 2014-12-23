@@ -3,8 +3,8 @@ Contributors: jprummer, pomegranate
 Donate link: https://www.wpovernight.com/
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec
 Requires at least: 3.4
-Tested up to: 4.0
-Stable tag: 2.5.3
+Tested up to: 4.1
+Stable tag: 2.5.4
 
 Automatically displays a shopping cart in your menu bar.
 
@@ -68,6 +68,16 @@ Once the plugin is activated navigate to Settings > Menu Cart Setup. Select your
 
 == Changelog ==
 
+= 2.5.4 =
+
+* New: Czech Translations
+* New: Greek Translations
+* Tweak: Seperated Item Classes
+* Tweak: Removed Unnecessary submenu classes
+* Tweak: Use get_total() instead of get_cart_total()
+* Fix: Prices show tax if cart prices are set to display including tax
+* Fix: Updated Font Awesome
+
 = 2.5.3 =
 
 * Fix: Ubermenu
@@ -128,6 +138,16 @@ Added WP-Ecommerce and EDD
 Initial Release
 
 == Upgrade Notice ==
+
+= 2.5.4 =
+
+* New: Czech Translations
+* New: Greek Translations
+* Tweak: Seperated Item Classes
+* Tweak: Removed Unnecessary submenu classes
+* Tweak: Use get_total() instead of get_cart_total()
+* Fix: Prices show tax if cart prices are set to display including tax
+* Fix: Updated Font Awesome
 
 = 2.5.3 =
 
