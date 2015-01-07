@@ -4,15 +4,16 @@ Donate link: https://www.wpovernight.com/
 Tags: woocommerce, menu, bar, cart, basket, header, shopping cart, navigation, edd, ecommerce, eshop, wp-ecommerce, jigoshop, wpec, test
 Requires at least: 3.4
 Tested up to: 4.1
-Stable tag: 2.5.4
+Stable tag: 2.5.5
 
-Automatically displays a shopping cart in your menu bar.
+Automatically displays a shopping cart in your menu bar. Works with WooCommerce, WP-Ecommerce, EDD, Eshop and Jigoshop
 
 == Description ==
 
 **For other Ecommerce platforms visit http://wordpress.org/extend/plugins/wp-menu-cart/**
 
-This plugin installs a shopping cart button in the navigation bar. The plugin takes less than a minute to setup, and includes the following options:
+This plugin installs a shopping cart button in the navigation bar. The plugin takes less than a minute to setup, 
+and includes the following options:
 
 * Display cart icon, or only items/prices.
 * Display items only, price only, or both.
@@ -34,6 +35,14 @@ Pro Version Includes:
 
 Finally, the cart automatically conforms to your site's styles, leaving you with no extra work.
 
+Compatibility:
+
+* WooCommerce
+* Easy Digital Downloads
+* Eshop
+* WP-Ecommerce
+* Jigoshop
+
 Translations:
 
 * Brazilian Portuguese
@@ -50,6 +59,8 @@ Translations:
 * Swedish
 * Persian
 * Greek
+* Czech
+* Norwegian
 
 [1] WebHostingHub
 == Installation ==
@@ -68,6 +79,10 @@ Once the plugin is activated navigate to Settings > Menu Cart Setup. Select your
 
 == Changelog ==
 
+= 2.5.5 =
+
+* New: Norwegian Translation
+
 = 2.5.4 =
 
 * New: Czech Translations
@@ -85,7 +100,7 @@ Once the plugin is activated navigate to Settings > Menu Cart Setup. Select your
 
 = 2.5.2 =
 
-This is a major update, make sure to test before updating on a live website, especially if you have made modifications/filters! If you notice any issues with your cart, please go to the settings page and re-save your settings. Note that your settings page will now be found under the 'Settings' tab.
+*Tweak: Merged menu cart versions
 
 = 2.5.1 =
 
@@ -93,7 +108,7 @@ This is a major update, make sure to test before updating on a live website, esp
 
 = 2.5 =
 
-* Mayor Code refactor: CLEANER, FASTER, MORE FLEXIBLE!
+* Major Code refactor: CLEANER, FASTER, MORE FLEXIBLE!
 * Added: Shop detection for Multisite
 * Added: WPML String Translation setting
 * Added: Persian translations
@@ -139,6 +154,10 @@ Initial Release
 
 == Upgrade Notice ==
 
+= 2.5.5 =
+
+* New: Norwegian Translation
+
 = 2.5.4 =
 
 * New: Czech Translations
@@ -156,7 +175,7 @@ Initial Release
 
 = 2.5.2 =
 
-This is a major update, make sure to test before updating on a live website, especially if you have made modifications/filters! If you notice any issues with your cart, please go to the settings page and re-save your settings. Note that your settings page will now be found under the 'Settings' tab.
+*Tweak: Merged menu cart versions
 
 = 2.5.1 =
 
