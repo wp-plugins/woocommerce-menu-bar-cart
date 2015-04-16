@@ -8,19 +8,20 @@
  */
 
 jQuery( function( $ ) {
+  var buttons = [
+    ".edd-add-to-cart",
+    ".wpsc_buy_button",
+    ".eshopbutton",
+    "div.cartopt p label.update input#update",
+    ".add_to_cart_button",
+    ".woocommerce-cart input.minus",
+    ".cart_item a.remove",
+    "#order_review .opc_cart_item a.remove",
+    ".woocommerce-cart input.plus"
+  ];
 
-  $( document ).on( 'click',
-    '.edd-add-to-cart, ' +
-    '.wpsc_buy_button, ' +
-    '.eshopbutton, ' +
-    'div.cartopt p label.update input#update, ' +
-    '.add_to_cart_button, ' +
-    '.woocommerce-cart input.minus, ' +
-    '.cart_item a.remove, ' +
-    '#order_review .opc_cart_item a.remove, '+
-    '.woocommerce-cart input.plus',
-    function() {
-      WPMenucart_Timeout();
+  jQuery(document.body).on('click', buttons.join(','), function(){
+    WPMenucart_Timeout();
   });
     
   function WPMenucart_Timeout() {
